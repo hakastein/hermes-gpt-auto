@@ -1,0 +1,14 @@
+name: gpt-auto
+label: GPT Auto Context
+kind: model-provider
+version: 1.0.0
+manifest_version: 2
+api_version: 1
+author: hakastein
+license: MIT
+description: >-
+  Automatically use the live maximum context for Codex GPT models selected in
+  the standard Hermes interface. No fixed context ceiling or core overrides.
+requires_hermes: ">=0.22.5"
+requires_auth:
+  - openai-codex
